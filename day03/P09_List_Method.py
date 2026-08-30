@@ -15,7 +15,7 @@ list1 = [600,100,200,300,400,500,200]
 del list1[0:3]
 print(list1)
 # list.remove(x)	删除第一次出现的x
-# list1.remove(200)
+list1.remove(200)
 # list.pop([index])	删除指定位置的数据，默认为末尾数据
 list1 = [600,100,200,300,400,500,200]
 print(list1.pop(2))
