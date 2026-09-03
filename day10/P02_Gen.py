@@ -1,6 +1,8 @@
 """
     该案例演示了生成器的创建
 """
+from typing import Iterator
+
 # 生成器就是一种迭代器
 """
 from collections.abc import Iterator
@@ -36,6 +38,7 @@ def fibo():
 print(type(fibo))
 f = fibo()
 print(type(f))
+print(isinstance(f,Iterator)) #生成器就是一种迭代器
 print(next(f))
 print(next(f))
 print(next(f))
